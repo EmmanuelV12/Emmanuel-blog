@@ -89,7 +89,7 @@ class Comment(db.Model):
 
 
 # We need to create the database just the first time
-db.create_all()
+# db.create_all()
 
 
 @login_manager.user_loader
